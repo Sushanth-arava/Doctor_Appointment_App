@@ -14,7 +14,7 @@ const UsersList = () => {
     try {
       dispatch(showLoading());
       const response = await axios.get(
-        "/admin/get-users",
+        "/api/admin/get-all-users",
 
         {
           headers: {
@@ -60,7 +60,7 @@ const UsersList = () => {
   ];
   return (
     <Layout>
-      <h1>UsersList</h1>
+      <h1>Users List</h1>
       <Table columns={columns} dataSource={users}></Table>
     </Layout>
   );

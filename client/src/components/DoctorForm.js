@@ -104,11 +104,11 @@ function DoctorForm({ onFinish, initialValues }) {
         <Col span={8} xs={24} sm={24} lg={8}>
           <Form.Item
             required
-            label="Fee Per Cunsultation"
+            label="Consultation Fee"
             name="consultationFee"
             rules={[{ required: true }]}
           >
-            <Input placeholder="Fee Per Cunsultation" type="number" />
+            <Input placeholder="Consultation Fee" type="number" />
           </Form.Item>
         </Col>
         <Col span={8} xs={24} sm={24} lg={8}>

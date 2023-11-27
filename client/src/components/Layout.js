@@ -63,11 +63,11 @@ function Layout({ children }) {
       path: "/admin/doctors",
       icon: "ri-user-star-line",
     },
-    {
-      name: "Profile",
-      path: "/profile",
-      icon: "ri-user-line",
-    },
+    // {
+    //   name: "Profile",
+    //   path: "/profile",
+    //   icon: "ri-user-line",
+    // },
   ];
 
   const menuToBeRendered = user?.isAdmin
